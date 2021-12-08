@@ -30,7 +30,9 @@ class Route
 		
 		$routes = explode('/', $_SERVER['REQUEST_URI']);
         //print_r($routes);
-
+        
+        $admin = '';
+        
         switch ($routes[1]){
 
             case "admin":       

@@ -6,7 +6,7 @@ class Controller_My_account extends Controller
 	
 	function Action_index()
     {	
-		$this->view->generate('my_account_view.php', '', $data);
+		$this->view->generate('my_account_view.php', '', '');
 	}
 }
 

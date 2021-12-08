@@ -11,13 +11,13 @@ class Controller_Login extends Controller
         
         $this->message = $this->getMessage();
         
-        print_r($this->message);
+        //print_r($this->message);
 	}
 	
 	function Action_index()
 	{
 	
-		$this->view->generate('login_view.php', '', $data, $this->message);
+		$this->view->generate('login_view.php', '', '', $this->message);
 	}
 }
 

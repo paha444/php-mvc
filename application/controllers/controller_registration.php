@@ -14,7 +14,7 @@ class Controller_Registration extends Controller
 	function Action_index()
 	{
 	
-		$this->view->generate('registration_view.php', '', $data);
+		$this->view->generate('registration_view.php', '', '');
 	}
 }
 

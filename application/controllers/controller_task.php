@@ -19,7 +19,7 @@ class Controller_Task extends Controller
 	{	
 
 
-		$this->view->generate('create_task_view.php','',$task);
+		$this->view->generate('create_task_view.php','','');
         
         
 

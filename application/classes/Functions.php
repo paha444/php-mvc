@@ -95,7 +95,10 @@ trait Functions
     
     function getMessage() { 	
         
-        session_start();
+    if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
         
         if(isset($_SESSION['message'])){
             //$this->message_type = $_SESSION['type'];

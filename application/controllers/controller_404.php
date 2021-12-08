@@ -33,7 +33,7 @@ class Controller_404 extends Controller
 		//$data = $this->model->get_data(1,'name','asc');	
         
         	
-		$this->view->generate('404_view.php', 'template_view.php', $data);
+		$this->view->generate('404_view.php', 'template_view.php', '');
        
        
        

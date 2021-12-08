@@ -53,7 +53,7 @@
     <?php if($this->message){ ?>
     <div class="alert alert-<?php echo $this->message['type'] ?> alert-dismissible fade show" role="alert">
       <p><?php echo $this->message['message'] ?></p>
-      <div><?php echo $this->message['m'] ?></div>
+      <div><?php if(isset($this->message['m'])) echo $this->message['m'] ?></div>
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
